@@ -2,6 +2,7 @@
 using AutoMapper.QueryableExtensions;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using TesteTec.Aplication.Interfaces;
 using TesteTec.Aplication.Validators;
@@ -33,7 +34,13 @@ namespace TesteTec.Aplication.Services
 
         public RickViewModel GetById(int id)
         {
+            
             return _mapper.Map<RickViewModel>(_rickRepository.GetById(id));
+        }
+
+        public RickViewModel GetByIdFull(int id)
+        {
+            return _mapper.Map<RickViewModel>(_rickRepository.GetByIdFull(id));
         }
 
         public void Register(RickViewModel rickViewModel)

@@ -33,7 +33,7 @@ namespace testetec.Controllers
         [Route("GetById/{id?}")]
         public RickViewModel GetById(int id)
         {
-            return _rickAppService.GetById(id);
+            return _rickAppService.GetByIdFull(id);
         }
         [HttpPost]
         public void Post(RickViewModel model)

@@ -10,6 +10,10 @@
   <ItemGroup>
     <Compile Remove="Migrations\20200527235430_Initial Bank.cs" />
     <Compile Remove="Migrations\20200527235430_Initial Bank.Designer.cs" />
+    <Compile Remove="Migrations\20200528151102_Add Viagem.cs" />
+    <Compile Remove="Migrations\20200528151102_Add Viagem.Designer.cs" />
+    <Compile Remove="Migrations\20200528155336_Initial.cs" />
+    <Compile Remove="Migrations\20200528155336_Initial.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>

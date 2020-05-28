@@ -10,6 +10,7 @@ namespace TesteTec.Aplication.Interfaces
         void Register(RickViewModel rickViewModel);
         IEnumerable<RickViewModel> GetAll();
         RickViewModel GetById(int id);
+        RickViewModel GetByIdFull(int id);
         void Update(RickViewModel rickViewModel);
         void Remove(int id);
     }

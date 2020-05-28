@@ -5,8 +5,8 @@ using TesteTec.Domain.Entities;
 
 namespace TesteTec.Domain.Interfaces
 {
-    public interface IRickRepository : IRepository<Rick>
+   public interface IViagemRepository : IRepository<Viagem>
     {
-        Rick GetByIdFull(int id);
+
     }
 }
